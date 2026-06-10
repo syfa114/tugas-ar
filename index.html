@@ -3,34 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tugas AR Bunga - Civaw</title>
+    <title>Tugas AR - Civaw</title>
     <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.4.0/model-viewer.min.js"></script>
     <style>
-        body {
-            margin: 0;
-            padding: 0;
-            width: 100vw;
-            height: 100vh;
-            overflow: hidden;
-            background-color: #fafafa;
-        }
-        model-viewer {
-            width: 100%;
-            height: 100%;
-        }
+        body, html { margin: 0; padding: 0; width: 100%; height: 100%; overflow: hidden; background-color: #ffffff; }
+        model-viewer { width: 100vw; height: 100vh; background-color: #ffffff; }
     </style>
 </head>
 <body>
 
     <model-viewer 
-        src="https://modelviewer.dev/shared-assets/models/SunFlower.glb" 
+        src="https://modelviewer.dev/shared-assets/models/Astronaut.glb" 
         ar 
-        ar-modes="scene-viewer webxr quick-look" 
+        ar-modes="webxr scene-viewer quick-look" 
         camera-controls 
-        touch-action="pan-y"
-        alt="Model 3D Bunga Matahari Tugas AR Civaw">
+        touch-action="pan-y" 
+        shadow-intensity="1" 
+        alt="Model AR 3D Astronot Google">
     </model-viewer>
 
 </body>
 </html>
-
